@@ -1,0 +1,34 @@
+* pypi.org
+* arrow
+    - `pip install arrow`
+* venv
+    - `pip install venv`
+* pip
+    - `pip install pip`
+    - pip install arrow == 1.0.3
+    - pip install arrow >= 1.0.3
+    - pip install --upgrade arrow
+    - pip install --upgrade
+    - pip install -U arrow
+    - pip install -r requirements.txt
+    - python -m install fastapi[doc, dev]
+    - PEP - 508
+    - PEP - 440 
+        - version specifier
+        - version range
+* installing from github
+    - python -m pip install "demo_pkg @ git+https://github.com/AnantaJoy/demo_pkg.git"
+
+* installing from local
+    - python -m pip install "demo_pkg @ file:///path/to/demo_pkg"
+    - demo_pkg
+        - myproject.toml
+        - src 
+            - demo_pkg
+                - __init__.py
+                - main.py
+                - utils.py
+* python
+    - python -V 
+    - python --version
+    - which python

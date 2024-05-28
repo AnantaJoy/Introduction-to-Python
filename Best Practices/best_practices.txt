@@ -1,0 +1,58 @@
+PEP 8
+Zen of Python
+    - import this
+    - import antigravity
+Naming variables
+    - snake_case, CamelCase, PascalCase
+spacing
+indentation
+comments
+docstrings
+    - __doc__
+
+type hints
+annotations
+importing modules
+  - standard library
+   - third party
+    - local
+Naming
+    - modules: short, lowercase
+    - classes: CamelCase
+    - functions: snake_case
+    - Constants: UPPERCASE
+    - variables: snake_case
+    - parameters: snake_case
+    - methods: snake_case
+    - attributes: snake_case
+    - private: _variable
+    - magic: __variable__
+    - dunder: __variable__
+    - single leading underscore: _variable
+    - single trailing underscore: variable_
+    - double leading underscore: __variable
+Type checking
+    - mypy
+    - type hints
+    - annotations
+    - isinstance()
+    - issubclass()
+-----------------------
+
+Modules:
+black
+mypy
+
+pylint
+    - pip install pylint
+    - pylint <filename>.py
+    pylint --generate-rcfile > .pylintrc
+flake8
+
+Documentation:
+sphinx
+    - pip install sphinx
+    - sphinx-quickstart
+    - sphinx-apidoc -o docs/ <module>
+    - sphinx-build -b html docs/ docs/_build
+    - sphinx-serve
